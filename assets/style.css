@@ -1,0 +1,19 @@
+header{
+    font-weight: 100;
+    margin: 0px;
+    font-size: 12px;
+    background-color: rgb(47, 47, 248);
+    color: #fff;
+}
+
+#Timer{
+    position: relative;
+    left: 1000px;   
+    bottom: 20px; 
+}
+
+#Highscores{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
