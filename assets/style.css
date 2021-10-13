@@ -48,10 +48,16 @@ button{
 	padding: 20px;
 	cursor: pointer;
 	margin-bottom: 20px;
+  display: inline-block;
+  columns: 1;
 }
 
 button:hover{
 	background-color: rgb(27, 78, 219);
+}
+
+#choices-container{
+  display: none;
 }
 
 .quiz-container{
@@ -59,3 +65,12 @@ button:hover{
     height: 200px;
     margin-top: 40px;
   }
+
+  .question{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;

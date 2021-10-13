@@ -15,7 +15,7 @@
     <header class="header-wrap">
 
         <h1 id="Highscores">View Previous Highscores</h1>
-        <h1 id="Timer"> </h1>
+        <h1 id="Timer"></h1>
 
     </header>
 
@@ -27,15 +27,38 @@
 
         <div class="quiz-container">
             <h2 id="title">Quiz on Important Facts</h2>
-            <div id="quiz"></div>
         </div>
-        <button id="previous">Previous Question</button>
+
+        <div id="show-questions">
+
+            <h2 id="question-title"></h2>
+
+            <div id="choices-container">
+                <button id="choiceA"></button>
+                <button id="choiceB"></button>
+                <button id="choiceC"></button>
+                <button id="choiceD"></button>
+            </div>
+
+            <div>
+                <h2 id="result-display"></h2>
+            </div>
+
+        </div>
+
+
+        <div>
+            <button id="Start">Start Quiz!</button>
+        </div>
+
         <button id="next">Next Question</button>
         <div id="results"></div>
 
     </main>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/script.js"></script>
+
 
 </body>
 
